@@ -1,9 +1,9 @@
-1. In Chipotle.tsv, each row represents a single item ordered within a given order (steak burrito, chips and salsa, etc.). Each column provides data about that item ordered (quantity, order id, item name, choice, and item price)
+QUESTION 1: In Chipotle.tsv, each row represents a single item ordered within a given order (steak burrito, chips and salsa, etc.). Each column provides data about that item ordered (quantity, order id, item name, choice, and item price)
 
 head chipotle.tsv
 tail chipotle.tsv
 
-2. There appear to be 1834 orders.
+QUESTION 2: There appear to be 1834 orders.
 tail chipotle.tsv
 
 3. 4623
