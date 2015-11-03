@@ -6,19 +6,19 @@ tail chipotle.tsv
 QUESTION 2: There appear to be 1834 orders.
 tail chipotle.tsv
 
-3. 4623
+QUESTION 3: 4623
 wc chipotle.tsv
 
-4. Chicken burritos (553) are more popular than steak burritos (368)
+QUESTION 4: Chicken burritos (553) are more popular than steak burritos (368)
 grep -c 'Chicken Burrito' chipotle.tsv
 grep -c 'Steak Burrito' chipotle.tsv
 
-5. Chicken burritos more frequently are served with black beans (282) than pinto (105)
+QUESTION 5: Chicken burritos more frequently are served with black beans (282) than pinto (105)
 grep 'Chicken Burrito' chipotle.tsv > chicken.tsv
 grep -c 'Black Beans' chicken.tsv
 grep -c 'Pinto Beans' chicken.tsv
 
-6 
+QUESTION 6:
 ls *
 02_git_github.pdf	README.md		new_file.md		syllabus.md
 
@@ -69,4 +69,4 @@ slides:
 01_course_overview.pdf		01_types_of_data.pdf		02_git_github2.pd.pdf
 01_data_science_intro.pdf	02_git_github.pdf
 
-7. Not sure how to do this one!
+QUESTION 7: Not sure how to do this one!
