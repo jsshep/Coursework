@@ -1,23 +1,24 @@
-##1. In Chipotle.tsv, each row represents a single item ordered within a given order (steak burrito, chips and salsa, etc.). ##Each column provides data about that item ordered (quantity, order id, item name, choice, and item price)
+1. In Chipotle.tsv, each row represents a single item ordered within a given order (steak burrito, chips and salsa, etc.). Each column provides data about that item ordered (quantity, order id, item name, choice, and item price)
+
 head chipotle.tsv
 tail chipotle.tsv
 
-##2. There appear to be 1834 orders.
+2. There appear to be 1834 orders.
 tail chipotle.tsv
 
-##3. 4623
+3. 4623
 wc chipotle.tsv
 
-##4. Chicken burritos (553) are more popular than steak burritos (368)
+4. Chicken burritos (553) are more popular than steak burritos (368)
 grep -c 'Chicken Burrito' chipotle.tsv
 grep -c 'Steak Burrito' chipotle.tsv
 
-##5. Chicken burritos more frequently are served with black beans (282) than pinto (105)
+5. Chicken burritos more frequently are served with black beans (282) than pinto (105)
 grep 'Chicken Burrito' chipotle.tsv > chicken.tsv
 grep -c 'Black Beans' chicken.tsv
 grep -c 'Pinto Beans' chicken.tsv
 
-##6 
+6 
 ls *
 02_git_github.pdf	README.md		new_file.md		syllabus.md
 
@@ -68,4 +69,4 @@ slides:
 01_course_overview.pdf		01_types_of_data.pdf		02_git_github2.pd.pdf
 01_data_science_intro.pdf	02_git_github.pdf
 
-##7. 
+7. Not sure how to do this one!
